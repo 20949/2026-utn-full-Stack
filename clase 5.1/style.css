@@ -1,0 +1,76 @@
+
+h1{
+    color:red;
+
+    background-color: black;
+
+    text-align: center;
+}
+
+.titulo-especial{
+    color: blue
+    text-aling  left;
+    background-color: black;
+}
+
+los selectores nos permiten seleccionar grupos de elementos (para darle estilo)
+
+- Universales  :  * ,todos los elementos de la pagina
+- De elemento  :  se llama por el mismo nombre del elemento,ese elemnto 
+- De clases    : .+ nombre de clase , selecciona a los elementos de x clase
+- De id        : #+ nombre de id selecciona un elemento por id (MALA PRACTICA)
+
+*{
+    font-family: Arial, helvetica, Sans-serif;
+}
+
+p{
+    font-size: 14px;
+}
+
+#especial{
+    color: red;
+}
+
+Especificidad : 
+
+mientras mas especifico es un selector mas importancia tendra este selector
+(+) especifidad
+- id 
+- clase 
+-elemento 
+-universal
+(-) especifidad 
+
+si la especificidad de los selectores es la misma se define por el orden que se esceibio osea la ultima 
+
+propiedades de fuente 
+
+h1{
+    color: cambia el color de un texto 
+    font-size: 16px ; tamano de la fuente 
+    letter-spacing:  40 px  espacio entre letras 
+    word-spacing 40px  espacios entre palabras
+    font-family : arial, helvetica ,sans-serif; 
+    font-weight: 400;
+    text-decoration;underline solid 10px 
+    background-color; black
+    text-shadow: 0px 0px 3px rgb(140,140,140)
+    font-style: italic: podeos hacer italica una fuente 
+    
+
+}
+
+p{
+    text-align: justify; nos permite alinear el texto ;
+    line-height: 36px; interlineado  altura del renglon 
+    font-weight: 300; ;
+}
+
+fotnt-weight 300 nos permite definir que tan negrita es una fuente van de 100 en 100 la propia fuente define los limites 
+
+Box modeling
+
+- inline ; se pueden alinear ,  ocupan solo su contenido
+- Block : no se alinean ocupan todo el bloque del h1 al h6 son bloques ,se puede modificar 
+- inline-block; se pueden alinear si el ancho  restante lo permite 

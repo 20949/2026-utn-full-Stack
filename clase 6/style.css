@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+box-modeling : 
+
+    width 
+    height 
+    border 
+    padding 
+    margin 
+    box-sizing 
+    border-raduls 
+    box-shadow 
+
+
+    Flexbox 
+
+
+.padre{
+    background-color: red 
+    width 
+    padding 
+
+    padding: 10px   relleno
+
+    border 5px solid color 
+
+    box-sizing : border-box  se utiliza para todos los CSS   Al comienzo hay que 
+    colocar *{box-sizing;} me ordena todos los espacios dentro del bloque
+    
+    margin-top: 200px
+    
+    border-radius: 50%  redondea los bordes
+    box-shadow:
+}
+
+
+FLEXBOX
+
+heightÑ100vh   /* viewport height  es el alto 100% de la pantalla
